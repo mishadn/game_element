@@ -260,6 +260,20 @@ void Game::startGame()
         currGamer->printObjectsStatusLine();
         currGamer->selectGameObject();
         currGamer->selectObjectAction();
+
+        //---------------------------------------------------
+
+            std::ofstream outFile;
+            std::ofstream &oFile = outFile;
+            outFile.open("saveObjects001.ttt");
+
+            for(std::map<std::string, Gamer*>::iterator g = gamers->begin(); g != gamers->end(); g++)
+            {
+               saveGamer(g->second, oFile);
+            }
+            outFile.close();
+        //---------------------------------------------------
+
         currGamer->printObjectsStatusLine();
     }
     std::cout << " next step? (Y/N)";

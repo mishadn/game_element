@@ -1,0 +1,513 @@
+# depslib dependency file v1.0
+1567693646 source:c:\zmy\cpp\game\element\game_element\src\air.cpp
+	"Air.h"
+	<string>
+	<iostream>
+	"gameSets.h"
+
+1567672958 c:\zmy\cpp\game\element\game_element\include\air.h
+	"Element.h"
+
+1568194388 c:\zmy\cpp\game\element\game_element\include\element.h
+	<string>
+	"gameSets.h"
+
+1572188493 source:c:\zmy\cpp\game\element\game_element\main.cpp
+	<iostream>
+	"Element.h"
+	"Air.h"
+	"Water.h"
+	"Earth.h"
+	"Fire.h"
+	"gameSets.h"
+	"Unit.h"
+	"Civil.h"
+	"Builder.h"
+	"Military.h"
+	"Cell.h"
+	"Tank.h"
+	"BuilderFactory.h"
+	"TankFactory.h"
+	"BuilderBF.h"
+	"CellsMap.h"
+	<string>
+	"Gamer.h"
+	"fstream"
+	"Game.h"
+
+1568193862 source:c:\zmy\cpp\game\element\game_element\src\element.cpp
+	"Element.h"
+	<iostream>
+
+1567686268 source:c:\zmy\cpp\game\element\game_element\src\water.cpp
+	"Water.h"
+	<string>
+	<iostream>
+
+1567672958 c:\zmy\cpp\game\element\game_element\include\water.h
+	"Element.h"
+
+1572188072 c:\zmy\cpp\game\element\game_element\include\gamesets.h
+	<map>
+	<string>
+
+1569921406 source:c:\zmy\cpp\game\element\game_element\src\unit.cpp
+	"Unit.h"
+	"gameSets.h"
+	<iostream>
+	<string>
+	"Cell.h"
+
+1570105960 c:\zmy\cpp\game\element\game_element\include\unit.h
+	"gameSets.h"
+	"Cell.h"
+	"CellsMap.h"
+
+1568225406 source:c:\zmy\cpp\game\element\game_element\src\civil.cpp
+	"Civil.h"
+	"gameSets.h"
+	<iostream>
+
+1568225406 c:\zmy\cpp\game\element\game_element\include\civil.h
+	"Unit.h"
+	"gameSets.h"
+	<string>
+
+1568225406 source:c:\zmy\cpp\game\element\game_element\src\military.cpp
+	"Military.h"
+	"gameSets.h"
+	<iostream>
+	"Cell.h"
+
+1570106397 c:\zmy\cpp\game\element\game_element\include\military.h
+	"Unit.h"
+	"Cell.h"
+
+1570117753 source:c:\zmy\cpp\game\element\game_element\src\builder.cpp
+	"Builder.h"
+	"gameSets.h"
+	<iostream>
+	"BuilderFactory.h"
+	<vector>
+	"Cell.h"
+
+1570117753 c:\zmy\cpp\game\element\game_element\include\builder.h
+	<vector>
+	"Civil.h"
+	"TankFactory.h"
+	"gameSets.h"
+	"CellsMap.h"
+
+1568740282 source:c:\zmy\cpp\game\element\game_element\src\cell.cpp
+	"Cell.h"
+	<iostream>
+	"gameSets.h"
+
+1568740270 c:\zmy\cpp\game\element\game_element\include\cell.h
+	"gameSets.h"
+	"Element.h"
+
+1568305644 source:c:\zmy\game_element\main.cpp
+	<iostream>
+	"Element.h"
+	"Air.h"
+	"Water.h"
+	"Earth.h"
+	"Fire.h"
+	"gameSets.h"
+	"Unit.h"
+	"Civil.h"
+	"Builder.h"
+	"Military.h"
+	"Cell.h"
+	"Tank.h"
+	"BuilderFactory.h"
+	"TankFactory.h"
+	"BuilderBF.h"
+	"CellsMap.h"
+	<string>
+
+1568194387 c:\zmy\game_element\include\element.h
+	<string>
+	"gameSets.h"
+
+1568307846 c:\zmy\game_element\include\gamesets.h
+	<map>
+	<string>
+
+1567672958 c:\zmy\game_element\include\air.h
+	"Element.h"
+
+1567672958 c:\zmy\game_element\include\water.h
+	"Element.h"
+
+1568284060 c:\zmy\game_element\include\unit.h
+	"gameSets.h"
+	"Cell.h"
+
+1568023443 c:\zmy\game_element\include\cell.h
+	"gameSets.h"
+	"Element.h"
+
+1568225405 c:\zmy\game_element\include\civil.h
+	"Unit.h"
+	"gameSets.h"
+	<string>
+
+1568225405 c:\zmy\game_element\include\builder.h
+	"Civil.h"
+	"TankFactory.h"
+	"gameSets.h"
+
+1568225405 c:\zmy\game_element\include\military.h
+	"Unit.h"
+	"Cell.h"
+
+1567693646 source:c:\zmy\game_element\src\air.cpp
+	"Air.h"
+	<string>
+	<iostream>
+	"gameSets.h"
+
+1568225405 source:c:\zmy\game_element\src\builder.cpp
+	"Builder.h"
+	"gameSets.h"
+	<iostream>
+	"BuilderFactory.h"
+
+1568194270 source:c:\zmy\game_element\src\cell.cpp
+	"Cell.h"
+	<iostream>
+	"gameSets.h"
+
+1568225405 source:c:\zmy\game_element\src\civil.cpp
+	"Civil.h"
+	"gameSets.h"
+	<iostream>
+
+1568193861 source:c:\zmy\game_element\src\element.cpp
+	"Element.h"
+	<iostream>
+
+1568225405 source:c:\zmy\game_element\src\military.cpp
+	"Military.h"
+	"gameSets.h"
+	<iostream>
+	"Cell.h"
+
+1568306402 source:c:\zmy\game_element\src\unit.cpp
+	"Unit.h"
+	"gameSets.h"
+	<iostream>
+	<string>
+	"Cell.h"
+
+1567686268 source:c:\zmy\game_element\src\water.cpp
+	"Water.h"
+	<string>
+	<iostream>
+
+1568028628 source:c:\zmy\game_element\src\tank.cpp
+	"Tank.h"
+	"gameSets.h"
+	<iostream>
+	"Cell.h"
+
+1568028341 c:\zmy\game_element\include\tank.h
+	"Military.h"
+	"gameSets.h"
+
+1568205212 source:c:\zmy\game_element\src\factory.cpp
+	"Factory.h"
+	<string>
+	"Cell.h"
+	<iostream>
+	"gameSets.h"
+
+1568206193 c:\zmy\game_element\include\factory.h
+	"Unit.h"
+	"gameSets.h"
+	<string>
+
+1567964833 source:c:\zmy\game_element\src\civilfactory.cpp
+	"CivilFactory.h"
+	<iostream>
+	"gameSets.h"
+
+1567964777 c:\zmy\game_element\include\civilfactory.h
+	"Factory.h"
+	"gameSets.h"
+
+1568016120 source:c:\zmy\game_element\src\builderfactory.cpp
+	"BuilderFactory.h"
+	<iostream>
+	<string>
+	"Builder.h"
+	"CivilFactory.h"
+	"gameSets.h"
+
+1568043980 c:\zmy\game_element\include\builderfactory.h
+	"Builder.h"
+	"Factory.h"
+	"CivilFactory.h"
+
+1568307916 source:c:\zmy\game_element\src\gamesets.cpp
+	"gameSets.h"
+
+1567965965 c:\zmy\game_element\include\tankfactory.h
+	"Factory.h"
+	"CivilFactory.h"
+	"Tank.h"
+
+1567965931 source:c:\zmy\game_element\src\tankfactory.cpp
+	"TankFactory.h"
+	<iostream>
+	<string>
+	"Tank.h"
+	"CivilFactory.h"
+	"gameSets.h"
+
+1568017554 source:c:\zmy\game_element\src\earth.cpp
+	"Earth.h"
+	<string>
+	<iostream>
+	"gameSets.h"
+
+1568017167 c:\zmy\game_element\include\earth.h
+	"Element.h"
+
+1568017582 source:c:\zmy\game_element\src\fire.cpp
+	"Fire.h"
+	<string>
+	<iostream>
+	"gameSets.h"
+
+1568017582 c:\zmy\game_element\include\fire.h
+	"Element.h"
+
+1568041146 source:c:\zmy\game_element\src\bilderbf.cpp
+	"BilderBF.h"
+	"Civil.h"
+	"Cell.h"
+	"gameSets.h"
+	<iostream>
+
+1568040991 c:\zmy\game_element\include\bilderbf.h
+	"Civil.h"
+
+1568042920 source:c:\zmy\game_element\src\builderbf.cpp
+	"BuilderBF.h"
+	"Civil.h"
+	"Cell.h"
+	"gameSets.h"
+	"BuilderFactory.h"
+	<iostream>
+
+1568042380 c:\zmy\game_element\include\builderbf.h
+	"Civil.h"
+	"BuilderFactory.h"
+
+1568132771 source:c:\zmy\game_element\src\cellsmap.cpp
+	"CellsMap.h"
+	"Cell.h"
+	"Air.h"
+	"Water.h"
+	"Earth.h"
+	"Fire.h"
+	"gameSets.h"
+
+1568130948 c:\zmy\game_element\include\cellsmap.h
+	"Cell.h"
+	"Air.h"
+	"Water.h"
+	"Earth.h"
+	"Fire.h"
+	"gameSets.h"
+
+1568308078 source:c:\zmy\game_element\src\loadgame.cpp
+	<iostream>
+	<string.h>
+	<fstream>
+	"Tank.h"
+	"Builder.h"
+
+1568298325 source:c:\zmy\game_element\src\savegame.cpp
+	"Unit.h"
+	<fstream>
+
+1568017168 c:\zmy\cpp\game\element\game_element\include\earth.h
+	"Element.h"
+
+1568017584 c:\zmy\cpp\game\element\game_element\include\fire.h
+	"Element.h"
+
+1572173046 c:\zmy\cpp\game\element\game_element\include\tankfactory.h
+	"Factory.h"
+	"CivilFactory.h"
+	"Tank.h"
+
+1570025071 c:\zmy\cpp\game\element\game_element\include\factory.h
+	"Unit.h"
+	"gameSets.h"
+	<string>
+
+1567964778 c:\zmy\cpp\game\element\game_element\include\civilfactory.h
+	"Factory.h"
+	"gameSets.h"
+
+1570106152 c:\zmy\cpp\game\element\game_element\include\tank.h
+	"Military.h"
+	"gameSets.h"
+	<vector>
+	"CellsMap.h"
+
+1572172946 c:\zmy\cpp\game\element\game_element\include\builderfactory.h
+	"Builder.h"
+	"Factory.h"
+	"CivilFactory.h"
+
+1568042382 c:\zmy\cpp\game\element\game_element\include\builderbf.h
+	"Civil.h"
+	"BuilderFactory.h"
+
+1568739830 c:\zmy\cpp\game\element\game_element\include\cellsmap.h
+	"Cell.h"
+	"Air.h"
+	"Water.h"
+	"Earth.h"
+	"Fire.h"
+	"gameSets.h"
+
+1572173046 source:c:\zmy\cpp\game\element\game_element\src\builderfactory.cpp
+	"BuilderFactory.h"
+	<iostream>
+	<string>
+	"Builder.h"
+	"CivilFactory.h"
+	"gameSets.h"
+
+1568740199 source:c:\zmy\cpp\game\element\game_element\src\cellsmap.cpp
+	"CellsMap.h"
+	"Cell.h"
+	"Air.h"
+	"Water.h"
+	"Earth.h"
+	"Fire.h"
+	"gameSets.h"
+
+1567964834 source:c:\zmy\cpp\game\element\game_element\src\civilfactory.cpp
+	"CivilFactory.h"
+	<iostream>
+	"gameSets.h"
+
+1568017556 source:c:\zmy\cpp\game\element\game_element\src\earth.cpp
+	"Earth.h"
+	<string>
+	<iostream>
+	"gameSets.h"
+
+1569588492 source:c:\zmy\cpp\game\element\game_element\src\factory.cpp
+	"Factory.h"
+	<string>
+	"Cell.h"
+	<iostream>
+	"gameSets.h"
+
+1568017584 source:c:\zmy\cpp\game\element\game_element\src\fire.cpp
+	"Fire.h"
+	<string>
+	<iostream>
+	"gameSets.h"
+
+1572188092 source:c:\zmy\cpp\game\element\game_element\src\gamesets.cpp
+	"gameSets.h"
+	<iostream>
+
+1570549875 source:c:\zmy\cpp\game\element\game_element\src\loadgame.cpp
+	<iostream>
+	<string.h>
+	<fstream>
+	"Tank.h"
+	"Builder.h"
+	"Unit.h"
+	"CellsMap.h"
+	"Cell.h"
+	"Game.h"
+	"Gamer.h"
+
+1570461260 source:c:\zmy\cpp\game\element\game_element\src\savegame.cpp
+	"Unit.h"
+	<fstream>
+	"Gamer.h"
+	"Factory.h"
+	"Unit.h"
+
+1570106397 source:c:\zmy\cpp\game\element\game_element\src\tank.cpp
+	"Tank.h"
+	"gameSets.h"
+	<iostream>
+	"Cell.h"
+	<vector>
+	"CellsMap.h"
+
+1572174464 source:c:\zmy\cpp\game\element\game_element\src\tankfactory.cpp
+	"TankFactory.h"
+	<iostream>
+	<string>
+	"Tank.h"
+	"CivilFactory.h"
+	"gameSets.h"
+
+1568744941 source:c:\zmy\cpp\game\element\game_element\src\gemer.cpp
+	"Gemer.h"
+
+1568749594 c:\zmy\cpp\game\element\game_element\include\gemer.h
+	<deque>
+	"Unit.h"
+	"Factory.h"
+	<string>
+
+1572172144 source:c:\zmy\cpp\game\element\game_element\src\gamer.cpp
+	"Gamer.h"
+	<string>
+	<iostream>
+	"BuilderFactory.h"
+	"Builder.h"
+	"Unit.h"
+	<typeinfo>
+	"Factory.h"
+	"gameSets.h"
+	"CellsMap.h"
+
+1572185903 c:\zmy\cpp\game\element\game_element\include\gamer.h
+	<deque>
+	"Unit.h"
+	"Factory.h"
+	<string>
+	"Builder.h"
+	"BuilderFactory.h"
+	<iostream>
+	"Cell.h"
+	"CellsMap.h"
+	<fstream>
+
+1572186981 source:c:\zmy\cpp\game\element\game_element\src\game.cpp
+	"Game.h"
+	<string>
+	"Factory.h"
+	"BuilderFactory.h"
+	"Builder.h"
+	"Unit.h"
+	"Cell.h"
+	"CellsMap.h"
+	<fstream>
+	<string.h>
+
+1572186981 c:\zmy\cpp\game\element\game_element\include\game.h
+	<string>
+	"Gamer.h"
+	<map>
+	"Cell.h"
+	"CellsMap.h"
+	<fstream>
+
