@@ -1,0 +1,36 @@
+#include <iostream>
+#include <string.h>
+//#include <stdio.h>
+#include <fstream>
+#include "Tank.h"
+#include "Builder.h"
+
+void loadGame(std::string fileInName)
+{
+    std::ifstream fileIn;
+    fileIn.open(fileInName);
+    while(!fileIn.eof())
+    {
+      //  std::string strIn;
+        char buff[100];
+        char* pch;
+        fileIn.getline(buff, 100);
+    //    strIn = buff;
+        std::cout << " OOOOO " << buff << std::endl << std::endl;
+        pch = strtok(buff, ";");
+        if (!strcmp(pch, "Unit"))
+        //while (pch)
+        //{
+            std::cout << pch << std::endl;
+            //std::cout << "NULL = " << NULL << std::endl;
+            pch = strtok(nullptr, ";");
+            units::UnitTypes unitType = units::intToUnitTypes(atoi(pch));
+            std::cout << units::getUnitTypeName(unitType) << std::endl;
+        //}
+    }
+    fileIn.close();
+
+}
+
+Builder* makeUnitBuilder(std::string);
+Tank* makeUnitTank(std::string);
